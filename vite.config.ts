@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // Déterminer le base path en fonction de l'environnement
 // En production (GitHub Pages), utiliser le nom du repo comme base path
 // En développement, utiliser '/'
-const base = process.env.NODE_ENV === 'production' ? '/findgold/' : '/';
+const base = process.env.NODE_ENV === 'production' ? '/findgold111/' : '/';
 
 export default defineConfig({
   plugins: [react()],
